@@ -4,7 +4,7 @@
           <h5>Garantia</h5>
           <form action="#" method="post">
               <label for="fiduciaria">Alienação Fiduciária:</label>
-              <select id="fiduciaria" required>
+              <select class= "me-2" id="fiduciaria" required>
                   <option></option>
                   <option value="1">Caução</option>
                   <option value="2">Penhor</option>
@@ -48,7 +48,7 @@
                   <option value="40">Trustee</option>
               </select>
               <label for="bem">Bem Garantia Pessoal:</label>
-              <select id="bem" required>
+              <select class= "me-2" id="bem" required>
                   <option></option>
                   <option value="1">Nota Promissória</option>
                   <option value="2">Duplicatas</option>
@@ -106,18 +106,18 @@
                   <option value="55">Conta</option>
                   <option value="57">Previdência</option>
               </select>
-              <input type="text" placeholder="% de Cobertura" mask= "000" suffix="%" required>
-              <input type="text" placeholder="Valor" prefix="R$" mask="000.000,00">
+              <input class= "me-2" type="text" placeholder="% de Cobertura" mask= "000" suffix="%" required>
+              <input class= "me-2" type="text" placeholder="Valor" prefix="R$" mask="000.000,00">
               <label for="valoracao">Valoração Automática?</label>
-              <input type="radio" name="valoracao" value="sim" required>Sim
-              <input type="radio" name="valoracao" value="nao" required>Não
+              <input class= "me-2" type="radio" name="valoracao" value="sim" required>Sim
+              <input class= "me-2" type="radio" name="valoracao" value="nao" required>Não
               <label for="valoracao" required>Walver?
-                  <input type="radio" name="walver" value="sim" required>Sim
+                  <input class= "me-2" type="radio" name="walver" value="sim" required>Sim
               </label>
-              <input type="radio" name="walver" value="nao">Não
-              <input type="text" placeholder="Suficiência" disabled>
+              <input class= "me-2" type="radio" name="walver" value="nao">Não
+              <input class= "me-2" type="text" placeholder="Suficiência" disabled>
               <div class="container buttons">
-                  <button class="mb-0 btn btn-save">Prosseguir</button>
+                  <button class="mb-0 btn btn-save" routerLink="/operacao">Prosseguir</button>
               </div>
           </form>
       </div>

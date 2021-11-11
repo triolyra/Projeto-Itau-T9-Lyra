@@ -3,27 +3,27 @@
       <div class="card-body">
           <h5>Operação</h5>
           <form action="#" method="post">
-              <input id="produto" name="exemplo1" type="text" placeholder="Produto" minlength="5" maxlength="5"
+              <input class= "me-2" id="produto" name="exemplo1" type="text" placeholder="Produto" minlength="5" maxlength="5"
                   required onkeypress="return event.charCode >= 48 && event.charCode <= 57">
-              <input id="agencia" type="text" placeholder="Agência" minlength="4" maxlength="5" required
+              <input class= "me-2" id="agencia" type="text" placeholder="Agência" minlength="4" maxlength="5" required
                   onkeypress="return event.charCode >= 48 && event.charCode <= 57"
                   title="Insira uma agência válida">
-              <input id="conta" type="text" placeholder="Conta" minlength="5" maxlength="5" required
+              <input class= "me-2" id="conta" type="text" placeholder="Conta" minlength="5" maxlength="5" required
                   onkeypress="return event.charCode >= 48 && event.charCode <= 57"
                   title="Insira uma conta válida">
-              <input id="dac" type="text" placeholder="Dac" minlength="1" maxlength="1" required
+              <input class= "me-2" id="dac" type="text" placeholder="Dac" minlength="1" maxlength="1" required
                   onkeypress="return event.charCode >= 48 && event.charCode <= 57"
                   title="Insira um dígito da conta válido">
-              <input id="cpfcnpj" type="text" name="exemplo2"
+              <input class= "me-2" id="cpfcnpj" type="text" name="exemplo2"
                   pattern="(\d{3}\.?\d{3}\.?\d{3}-?\d{2})|(\d{2}\.?\d{3}\.?\d{3}/?\d{4}-?\d{2})"
                   title="Digite um CPF no formato: XXX.XXX.XXX-XX ou CNPJ no formato: XX.XXX.XXX/0001-XX"
                   maxlength="18" placeholder="CPF/CNPJ do Tomador" required>
               <label class="ms-2" for="date">Data de Abertura:
-                  <input type="date" required>
+                  <input class= "me-2" type="date" required>
               </label>
               <label class="ms-2" for="date">Data de Vencimento:
-                  <input type="date" required>
-                  <input type="text" placeholder="Valor" disabled>
+                  <input class= "me-2" type="date" required>
+                  <input class= "me-2" type="text" placeholder="Valor" disabled>
               </label>
               <div class="container buttons">
                   <button class="mb-0 btn btn-save">Prosseguir</button>
