@@ -106,10 +106,8 @@
                   <option value="55">Conta</option>
                   <option value="57">Previdência</option>
               </select>
-              <input type="text" placeholder="% de Cobertura"
-                  onkeypress="$(this).mask('000%', {reverse: true}); required">
-              <input type="text" placeholder="Valor"
-                  onkeypress="$(this).mask('R$ 000.000,00', {reverse: true}); required">
+              <input type="text" placeholder="% de Cobertura" mask= "000" suffix="%" required>
+              <input type="text" placeholder="Valor" prefix="R$" mask="000.000,00">
               <label for="valoracao">Valoração Automática?</label>
               <input type="radio" name="valoracao" value="sim" required>Sim
               <input type="radio" name="valoracao" value="nao" required>Não
