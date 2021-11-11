@@ -32,12 +32,14 @@ body, html {
 }
 
 input {
-  width: 30%;
   outline: none;
-  margin: 10px;
   padding: 5px 5px 0px 5px;
   border: none;
   border-bottom: 1.7px solid var(--gray);
+}
+
+label{
+  margin: 10px;
 }
 
 input::placeholder {
@@ -62,7 +64,7 @@ input:focus:required:valid{
   color: var(--gray-dark);
 }
 
-/* input[type='radio']:after {
+input[type='radio']:after {
   width: 18px;
   height: 18px;
   border-radius: 16px;
@@ -88,4 +90,4 @@ input[type='radio']:checked:after {
   display: inline-block;
   visibility: visible;
   border: 3px solid white;
-} */
+}

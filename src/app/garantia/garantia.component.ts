@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GarantiaComponent implements OnInit {
 
+  garantia = {
+    valor:""
+  }
+
   constructor() { }
 
   ngOnInit(): void {

@@ -7,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InclusaoPenhorComponent implements OnInit {
 
+  produto: string = "12345678889"
+  cliente: string= "Taylor Swift"
+  contrato: string ="12345"
+  cnpj: string= "13.1313.131/1313-13"
+
   constructor() { }
 
   ngOnInit(): void {
