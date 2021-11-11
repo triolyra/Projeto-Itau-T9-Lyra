@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+<body>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+<div>
+  <div class="card1 active">
+    <p>Operação</p>
+    <div class="container btn">
+   <button type="button" class="btn">Prosseguir</button>
+  </div>
+  </div>
+
+  <div class="card2">
+    <p>Garantia</p>
+    <div class="container btn">
+   <button type="button" class="btn">Prosseguir</button>
+  </div>
+  </div>
+   
+<div class="cardunc">
+  <div class="cardclr">
+    <p>CARD 3</p>
+  </div>
+  <div class="cardclr">
+    <p>CARD 4</p>
+  </div>
+  <div class="cardclr">
+    <p>CARD 5</p>
+  </div>
+  <div class="cardclr">
+    <p>CARD 6</p>
+</div>
+ <div class="cardclr">
+    <p>CARD 7</p>
+</div>
+</div>
+
+<script>
+$(document).ready(() => {
+  $(".btn")
+  .click(e => $(e.target).parent().next().addClass('active')); 
+});
+</script>
+
+</body>
+</html>
+
+
