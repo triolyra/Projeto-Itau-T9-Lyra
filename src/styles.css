@@ -1,1 +1,91 @@
-/* You can add global styles to this file, and also import other style files */
+body, html {
+  font-family: 'Lato', sans-serif;
+}
+
+:root {
+  --white: #ffffff;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --light: #f8f9fa;
+  --danger: #dc3545;
+  --safe: #4cd038;
+}
+
+.card {
+  width: 100%;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  border-radius: 5px;
+  padding: 5vh;
+}
+
+.container h5 {
+  margin-left: 10px;
+  margin-bottom: 2vh;
+  text-align: start;
+  font-size: 18px;
+  color: var(--orange);
+}
+
+input {
+  width: 30%;
+  outline: none;
+  margin: 10px;
+  padding: 5px 5px 0px 5px;
+  border: none;
+  border-bottom: 1.7px solid var(--gray);
+}
+
+input::placeholder {
+  color: var(--gray-dark);
+}
+
+input:focus:required:invalid{
+  border-bottom: 1.7px solid var(--danger);
+}
+
+input:focus:required:valid{
+  border-bottom: 1.7px solid var(--safe);
+}
+
+.container select {
+  outline: none;
+  border: none;
+  border-bottom: 1.7px solid var(--gray);
+}
+
+.container label {
+  color: var(--gray-dark);
+}
+
+/* input[type='radio']:after {
+  width: 18px;
+  height: 18px;
+  border-radius: 16px;
+  top: -1px;
+  left: -1px;
+  position: relative;
+  background-color: #d1d3d1;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 3px solid white;
+}
+
+input[type='radio']:checked:after {
+  width: 18px;
+  height: 18px;
+  border-radius: 15px;
+  top: -1px;
+  left: -1px;
+  position: relative;
+  background-color: #fd7e14;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 3px solid white;
+} */

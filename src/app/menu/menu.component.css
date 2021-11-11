@@ -1,0 +1,52 @@
+nav {
+  background-color: var(--orange);
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+.portal {
+  font-size: 25px;
+  color: var(--white);
+}
+
+.dropdown-menu {
+  border-color: var(--orange);
+  color: var(--orange);
+}
+
+.dropdown-item {
+  color: var(--orange);
+}
+
+.dropdown-menu .dropdown-item:hover {
+  color: var(--white);
+  background-color: var(--orange);
+  transition: .5s ease all;
+}
+
+.dropdown-menu {
+  display: block;
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: .5s ease all;
+}
+
+.dropdown-menu.show {
+  display: block;
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0px);
+  transition: .5s ease all;
+}
+
+.perfil {
+  border-radius: 50%;
+}
+
+.user span {
+  color: var(--white);
+}
