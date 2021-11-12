@@ -4,9 +4,32 @@
   text-align: end;
 }
 
-.btn {
+/*.btn {
   margin: 0px 0px 50px 5px;
   transition-duration: 0.4s;
+}
+*/
+
+.btn1{
+  text-align: center;
+  font-size: 14px;
+  width: 100px;
+  height: 40px;
+  background: #FF8C00;
+  border: 2px #FF8C00;
+  border-radius: 12px;
+  color: white;
+  line-height: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: all 400ms ease;
+}
+
+.btn:hover {
+
+  background: rgba(255, 255, 255, 1);
+  color:#FF8C00;
+  box-shadow: 0 0 0 3 #FF8C00;
 }
 
 .btn:focus {
@@ -35,3 +58,35 @@
 }
 
 /* Botões */
+
+
+/* cards */
+
+div {
+  padding: 10px;
+
+}
+
+ .card1,.card2,.cardunc {
+    display: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background: whitesmoke;
+ }
+
+ .cardunc{
+    background: white;
+
+ }
+
+ .cardclr{
+   background: whitesmoke;
+   border-radius: 10px;
+   margin-bottom: 10px;
+ }
+  .active {
+    display: block;
+ }
+
+
+/* cards */
